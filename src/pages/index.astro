@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navegacion from '../components/Navegacion.astro';
+import Header from '../components/Header.astro';
+import SobreMi from '../components/SobreMi.astro';
+import Skills from '../components/Skills.astro';
+import Proyectos from '../components/Proyectos.astro'
+import Experiencia from '../components/Experiencia.astro'
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<section class="contenedor">
+		<Navegacion />
+		<Header />
+	</section>
+	<SobreMi />
+	<section class="contenedor">
+		<Skills />
+	</section>
+	<Proyectos />
+	<Experiencia />
+	<Footer />
+</Layout>
